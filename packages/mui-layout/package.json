@@ -42,5 +42,5 @@
     "prepublishOnly": "yarn copy-files",
     "copy-files": "node ../../scripts/copy-files.js"
   },
-  "gitHead": "eac20ccd043fa6daf7f1971a373fb155229281c8"
+  "gitHead": "e25a3ff14dfecabd75ba87d85baf31985eb5f6ff"
 }
