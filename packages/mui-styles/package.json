@@ -38,7 +38,7 @@
     "prepublishOnly": "yarn copy-files",
     "copy-files": "node ../../scripts/copy-files.js"
   },
-  "gitHead": "e25a3ff14dfecabd75ba87d85baf31985eb5f6ff",
+  "gitHead": "256b8f9a93efd5264c929208aafc2269089d79b9",
   "devDependencies": {
     "@types/color": "^3.0.1"
   }
