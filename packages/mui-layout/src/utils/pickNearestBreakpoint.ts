@@ -5,7 +5,8 @@ const pickNearestBreakpoint = <T>(
   value: MapBreakpoint<T>,
   breakpoint: Breakpoint
 ): T => {
-  const possibleBreakpoints = keys.slice(0, keys.indexOf(breakpoint) + 1)
+  let breakpoints = keys||[];
+  const possibleBreakpoints = breakpoints.slice(0, breakpoints.indexOf(breakpoint) + 1)
   return possibleBreakpoints.reduceRight((result, currentBreakpoint) => {
     if (result) return result
     return value[currentBreakpoint]
